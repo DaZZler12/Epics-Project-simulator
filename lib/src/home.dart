@@ -50,7 +50,7 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
   //
   openUrl() async{
-     String url = "https://quizplatformonline.000webhostapp.com/MyAdmin/dashboard.php";
+     String url = "https://quizplatformonline.000webhostapp.com/dashboard.php";
   //    if(kIsWeb) {
   //     html.window.open(url,'_blank');
   // } else {
@@ -107,7 +107,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
       appBar: AppBar(
         centerTitle: true,
         title: Text(
-          'Epics Project',
+          'Visualize It',
           style: Theme.of(context).textTheme.headline6,
         ),
         actions: <Widget>[

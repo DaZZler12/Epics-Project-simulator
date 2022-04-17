@@ -433,7 +433,7 @@ class Simulations with ChangeNotifier {
         image: theme.darkTheme
             ? 'assets/simulations/AdditionalDark.png'
             : 'assets/simulations/AdditionalLight.png',
-        direct: UrlLauncher(name: "Graph Plotting", url: "https://dazzler12.github.io/AdditionalMathsSimulation/"),
+        direct: UrlLauncher(name: "Additional Mathematical Simulation", url: "https://dazzler12.github.io/AdditionalMathsSimulation/"),
         infoLink: 'https://en.wikipedia.org/wiki/Selection_sort',
         fav: _favorites[32],
       ),
